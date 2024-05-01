@@ -27,7 +27,8 @@ pipe = pipeline(
     device=device,
 )
 
-uploaded_file = st.file_uploader("Upload an audio file",type=["wav", "mp3"])
+dataset = load_dataset("distil-whisper/librispeech_long", "clean", split="validation")
+sample = dataset[0]["audio"]
 
-result = pipe(uploaded_file)
+result = pipe(sample)
 st.write(result["text"])
