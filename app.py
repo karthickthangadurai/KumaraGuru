@@ -27,7 +27,7 @@ pipe = pipeline(
     device=device,
 )
 
-uploaded_file = st.file_uploader("Upload an audio file")
+uploaded_file = st.file_uploader("Upload an audio file",type=["wav", "mp3"])
 
 result = pipe(uploaded_file)
 st.write(result["text"])
