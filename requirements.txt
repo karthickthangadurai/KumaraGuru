@@ -3,3 +3,4 @@ accelerate
 transformers
 streamlit
 datasets
+pillow
