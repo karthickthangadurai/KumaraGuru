@@ -2,5 +2,5 @@ torch
 accelerate
 transformers
 streamlit
-datasets
 pillow
+request
