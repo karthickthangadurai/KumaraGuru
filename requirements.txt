@@ -3,4 +3,4 @@ accelerate
 transformers
 streamlit
 pillow
-request
+requests
