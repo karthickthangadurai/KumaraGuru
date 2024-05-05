@@ -4,3 +4,5 @@ transformers
 streamlit
 pillow
 requests
+PyPDF2
+pybase64
