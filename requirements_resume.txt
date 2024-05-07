@@ -1,0 +1,7 @@
+streamlit
+PyPDF2
+pybase64
+transformers
+torch
+torchvision
+torchaudio
